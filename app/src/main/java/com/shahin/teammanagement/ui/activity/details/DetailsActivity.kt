@@ -49,7 +49,7 @@ class DetailsActivity : AppCompatActivity() {
         override fun onChanged(userData: UserData?) {
             if (userData == null) return
 
-            title?.text = userData.title
+            title?.text = userData.gender
             desc?.text = userData.description
             image?.let { Glide.with(applicationContext).load(userData.image).into(it) }
         }
