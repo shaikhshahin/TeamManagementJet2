@@ -20,19 +20,19 @@ class UserData : Parcelable {
 
     @Expose
     @SerializedName("gender")
-    var title: String? = null
+    var gender: String? = null
 
 
     protected constructor(`in`: Parcel) {
         description = `in`.readString()
         image = `in`.readString()
-        title = `in`.readString()
+        gender = `in`.readString()
     }
 
-    constructor(description: String, image: String, title: String) {
+    constructor(description: String, image: String, gender: String) {
         this.description = description
         this.image = image
-        this.title = title
+        this.gender = gender
     }
 
 
@@ -43,7 +43,7 @@ class UserData : Parcelable {
     override fun writeToParcel(parcel: Parcel, i: Int) {
         parcel.writeString(description)
         parcel.writeString(image)
-        parcel.writeString(title)
+        parcel.writeString(gender)
     }
 
 
