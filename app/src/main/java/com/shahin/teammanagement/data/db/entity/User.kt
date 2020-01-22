@@ -7,7 +7,7 @@ import androidx.room.ForeignKey
 import androidx.room.Index
 import androidx.room.PrimaryKey
 
-import com.shahin.assignmentinfomvvm.data.network.model.UserData
+import com.shahin.teammanagement.data.network.model.UserData
 
 /**
  * Created by Shahin on 19/11/2019.

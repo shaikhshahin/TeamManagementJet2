@@ -87,6 +87,7 @@ class MainViewModel internal constructor(private val userService: UserService) :
 
         override fun onResponse(call: Call<UserResponse>, response: Response<UserResponse>) {
             val UserDataResponse = response.body()
+            Log.e("Response", response.toString())
 
             if (UserDataResponse != null) {
                 setUserDatas(UserDataResponse.userData)

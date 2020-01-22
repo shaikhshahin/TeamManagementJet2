@@ -7,21 +7,21 @@ import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
 /**
- * Created by Shahin on 19/11/2019.
  */
 class UserData : Parcelable {
 
     @Expose
-    @SerializedName("description")
+    @SerializedName("last")
     var description: String? = null
 
     @Expose
-    @SerializedName("imageHref")
+    @SerializedName("thumbnail")
     var image: String? = null
 
     @Expose
-    @SerializedName("title")
+    @SerializedName("gender")
     var title: String? = null
+
 
     protected constructor(`in`: Parcel) {
         description = `in`.readString()

@@ -35,7 +35,7 @@ class DetailsActivity : AppCompatActivity() {
 
         val viewModel = createViewModel()
 
-        viewModel.movie.observe(this, MovieObserver())
+       // viewModel.movie.observe(this, MovieObserver())
 
         viewModel.loadMovieData(intent)
     }

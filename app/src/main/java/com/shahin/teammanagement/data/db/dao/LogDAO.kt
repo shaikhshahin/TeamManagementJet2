@@ -6,7 +6,7 @@ import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
 
-import com.shahin.assignmentinfomvvm.data.db.entity.LogClass
+import com.shahin.teammanagement.data.db.entity.LogClass
 
 /**
  * Created by Shahin on 19/11/2019.

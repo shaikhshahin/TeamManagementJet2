@@ -24,7 +24,7 @@ class UserService private constructor() {
     }
 
     interface UserApi {
-        @get:GET("facts.json")
+        @get:GET("api")
         val allUser: Call<UserResponse>
     }
 

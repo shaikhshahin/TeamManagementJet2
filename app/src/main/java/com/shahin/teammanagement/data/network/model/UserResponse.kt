@@ -11,6 +11,6 @@ import com.shahin.teammanagement.data.network.model.UserData
 class UserResponse {
 
     @Expose
-    @SerializedName("rows")
+    @SerializedName("results")
     val userData: List<UserData>? = null
 }

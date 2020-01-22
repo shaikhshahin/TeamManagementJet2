@@ -1,11 +1,10 @@
 package com.shahin.teammanagement.ui.activity.details
 
 import android.content.Intent
-import android.service.autofill.UserData
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-
+import com.shahin.teammanagement.data.network.model.UserData
 
 
 /**

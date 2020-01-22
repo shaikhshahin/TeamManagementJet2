@@ -5,7 +5,7 @@ package com.shahin.teammanagement.data.db.database
 import androidx.room.Database
 import androidx.room.RoomDatabase
 
-import com.shahin.assignmentinfomvvm.data.network.model.UserData
+import com.shahin.teammanagement.data.network.model.UserData
 
 /**
  * Created by Shahin on 19/11/2019.
